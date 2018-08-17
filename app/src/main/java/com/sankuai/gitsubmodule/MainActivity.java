@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
 
                 log(MyMath.add(1, 2)+"");
+                log("sub(1, 2):" + MyMath.sub(1, 2)+"");
+
             }
         });
     }
